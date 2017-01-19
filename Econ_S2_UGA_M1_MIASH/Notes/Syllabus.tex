@@ -1,0 +1,43 @@
+\documentclass[12pt, reqno]{amsart}
+%\documentclass[12pt, reqno, fleqn]{amsart}
+\input{header_fr}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead[L]{\'Econométrie 2}
+\fancyhead[R]{Master MIASH , 2016-2017}
+\fancyfoot[R]{\textcopyright \ \  Michal W. Urdanivia}
+\usepackage{authblk}
+%\usepackage{sectsty}
+\usepackage{lipsum}
+\title{Syllabus}
+\date{Année universitaire 2016-2017}
+\begin{document}
+\maketitle
+\section{Résumé}
+Ce cours est la suite du cours d'économétrie du premier semestre dans le domaine de l'analyse statistique des données individuelles. La première partie considère quelques extensions des modèles linéaires abordés en économétrie 1. Ces extensions visent globalement à résoudre le problème d'endogénéité, au cœur de la micréoéconométrie moderne. Le cours approfondit la méthode des variables instrumentales, en traitant de l'hétéroscédasticité et des instruments faibles. Il considère également  l'utilisation des panels, y compris lorsque la dynamique du modèle est complexe. En termes méthodologiques, cette partie s'appuiera sur l'estimateur des moments généralisés. La deuxième partie du cours considère les modèles à variable dépendantes "limitées". Ce terme recouvre en premier lieu les variables discrètes (indicatrices de chômage, de remboursement de prêts, état de santé, choix de transport etc.) Il recouvre également les variables censurées comme la consommation, qui prend nécessairement des valeurs positives mais potentiellement nulle. Les problèmes de sélection (offre de travail, sélection endogène d'échantillon) sont également abordés. Dans le cadre de ces modèles non-linéaires, la méthode d'estimation utilisée est principalement le maximum de vraisemblance. Enfin si le temps le permet nous introduirons la régression non-paramétrique. Afin de compléter le cours vous pouvez vous appuyer(parmi d'autres manuels)  sur \cite{Wooldridge2010},  \cite{Amemiya1985}. \cite{White1980}.
+
+\section{\'Evaluation}
+L'évaluation se fera sur la base d'un examen final(50 $\%$ de la note), ainsi que sur un certain nombre de devoirs(50 $\%$ de la note) qui consisteront aussi bien dans des travaux théoriques et que dans des travaux d'application. Pour ces derniers vous pouvez utiliser le langage de votre préférence. Notez néanmoins que les corrections et les applications en cours se feront sur Python et dans une moindre mesure sur R. Enfin les devoirs pourront être faits en binômes.
+
+\section{Plan indicatif}
+\begin{enumerate}
+\item Modèles linéaires.
+\begin{enumerate}
+\item Propriétés asymptotiques de l'estimateur des moindres carrés. 
+\item Variables instrumentales: endogénéité, estimateur des 2MC, tests d'Hausman et de Sargan. 
+Instruments en présence d'hétéroscédasticité, instruments faibles.
+\item Modèles de panels statiques: effets fixes et effets aléatoires, estimateurs de différences premières et estimateurs within, Inférence efficace en présence d'autocorrélation. 
+\item Panels dynamiques et exogénéité faible: estimation par les moments généralisés
+\end{enumerate}
+
+\item Modèles non-linéaires : variables dépendantes limitées
+\begin{enumerate}
+\item Modèles pour variables dépendantes binaires: modèles logit et probit, identification, estimation, qualité du modèle, problème d'hétéroscédasticité et d'endogénéité.
+\item Modèles polytomiques ordonnés et non ordonnés: modèle logit multinomial, modèle logit conditionnel.
+\item Modèles de censure et de sélection: modèles tobit simple, modèle de sélection généralisée, modèle de troncature.
+\end{enumerate}
+\end{enumerate}
+\bibliographystyle{plainnat}
+\bibliography{biblio}
+
+\end{document}
