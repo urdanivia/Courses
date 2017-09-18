@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: UGA_M1_Eco1_Syllabus_fr.aux
+The style file: jpe.bst
+Database file #1: ../UGA_M1_Eco1_biblio.bib.bib
+Warning--I didn't find a database entry for "card1997myth"
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 12 entries,
+            3072 wiz_defined-function locations,
+            693 strings with 6667 characters,
+and the built_in function-call counts, 7056 in all, are:
+= -- 609
+> -- 268
+< -- 0
++ -- 90
+- -- 76
+* -- 478
+:= -- 1170
+add.period$ -- 65
+call.type$ -- 12
+change.case$ -- 67
+chr.to.int$ -- 12
+cite$ -- 12
+duplicate$ -- 481
+empty$ -- 559
+format.name$ -- 97
+if$ -- 1420
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 96
+newline$ -- 75
+num.names$ -- 48
+pop$ -- 187
+preamble$ -- 1
+purify$ -- 67
+quote$ -- 0
+skip$ -- 193
+stack$ -- 0
+substring$ -- 399
+swap$ -- 242
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 99
+warning$ -- 0
+while$ -- 57
+width$ -- 0
+write$ -- 174
+(There was 1 warning)

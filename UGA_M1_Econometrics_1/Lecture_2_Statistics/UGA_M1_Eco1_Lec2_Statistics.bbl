@@ -1,0 +1,63 @@
+\begin{thebibliography}{9}
+\newcommand{\enquote}[1]{``#1''}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+
+\bibitem[{Abbring(2001)}]{abbring2001}
+Abbring, Jaap. 2001.
+\newblock \enquote{An Introduction to Econometrics: Lecture notes.}
+\newblock
+  \urlprefix\url{http://jabbring.home.xs4all.nl/courses/b44old/lect210.pdf}.
+
+\bibitem[{Angrist and Pischke(2014)}]{ap2014}
+Angrist, Joshua~D and J{\"o}rn-Steffen Pischke. 2014.
+\newblock \emph{Mastering 'Metrics: The Path from Cause to Effect}.
+\newblock Princeton University Press.
+
+\bibitem[{Aron-Dine, Einav, and Finkelstein(2013)}]{rand2013}
+Aron-Dine, Aviva, Liran Einav, and Amy Finkelstein. 2013.
+\newblock \enquote{The RAND Health Insurance Experiment, Three Decades Later.}
+\newblock \emph{Journal of Economic Perspectives} 27~(1):197--222.
+\newblock
+  \urlprefix\url{http://www.aeaweb.org/articles.php?doi=10.1257/jep.27.1.197}.
+
+\bibitem[{Diez, Barr, and Cetinkaya-Rundel(2012)}]{dbc2012}
+Diez, David~M, Christopher~D Barr, and Mine Cetinkaya-Rundel. 2012.
+\newblock \emph{OpenIntro Statistics}.
+\newblock OpenIntro.
+\newblock \urlprefix\url{http://www.openintro.org/stat/textbook.php}.
+
+\bibitem[{Grinstead and Snell(2003)}]{gs2003}
+Grinstead, Charles~M and J.~Laurie Snell. 2003.
+\newblock \emph{Introduction to Probability}.
+\newblock American Mathematical Society.
+\newblock
+  \urlprefix\url{http://www.dartmouth.edu/~chance/teaching_aids/books_articles/probability_book/book.html}.
+
+\bibitem[{Menzel(2009)}]{menzel2009}
+Menzel, Konrad. 2009.
+\newblock \enquote{14.30 Introduction to Statistical Methods in Economics.}
+\newblock Massachusetts Institute of Technology: MIT OpenCourseWare.
+\newblock
+  \urlprefix\url{http://ocw.mit.edu/courses/economics/14-30-introduction-to-statistical-methods-in-economics-spring-2009/lecture-notes/}.
+
+\bibitem[{Miguel and Kremer(2003)}]{miguel2003}
+Miguel, E. and M.~Kremer. 2003.
+\newblock \enquote{Worms: identifying impacts on education and health in the
+  presence of treatment externalities.}
+\newblock \emph{Econometrica} 72~(1):159--217.
+\newblock
+  \urlprefix\url{http://onlinelibrary.wiley.com/doi/10.1111/j.1468-0262.2004.00481.x/abstract}.
+
+\bibitem[{Stock and Watson(2009)}]{sw2009}
+Stock, J.H. and M.W. Watson. 2009.
+\newblock \emph{Introduction to Econometrics, 2/E}.
+\newblock Addison-Wesley.
+
+\bibitem[{Wooldridge(2013)}]{w2013}
+Wooldridge, J.M. 2013.
+\newblock \emph{Introductory econometrics: A modern approach}.
+\newblock South-Western.
+
+\end{thebibliography}

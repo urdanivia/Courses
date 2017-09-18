@@ -1,0 +1,12 @@
+\begin{thebibliography}{1}
+\newcommand{\enquote}[1]{``#1''}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+
+\bibitem[{Angrist and Pischke(2014)}]{ap2014}
+Angrist, Joshua~D and J{\"o}rn-Steffen Pischke. 2014.
+\newblock \emph{Mastering 'Metrics: The Path from Cause to Effect}.
+\newblock Princeton University Press.
+
+\end{thebibliography}
