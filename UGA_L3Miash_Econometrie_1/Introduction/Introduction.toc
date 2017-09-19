@@ -1,0 +1,5 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {french}
+\beamer@sectionintoc {1}{ Pr\IeC {\'e}sentation du cours}{5}{0}{1}
+\beamer@sectionintoc {2}{L'\'Econom\IeC {\'e}trie}{9}{0}{2}
+\beamer@sectionintoc {3}{Un exemple introductif}{16}{0}{3}

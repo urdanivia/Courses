@@ -1,0 +1,6 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {french}
+\beamer@sectionintoc {1}{Mod\IeC {\`e}le de r\IeC {\'e}gression lin\IeC {\'e}aire et moindres carr\IeC {\'e}s}{6}{0}{1}
+\beamer@sectionintoc {2}{G\IeC {\'e}om\IeC {\'e}trie des moindres carr\IeC {\'e}s}{34}{0}{2}
+\beamer@sectionintoc {3}{Intervalles de confiance}{66}{0}{3}
+\beamer@sectionintoc {4}{Tests d'hypoth\IeC {\`e}ses}{85}{0}{4}

@@ -1,0 +1,13 @@
+\begin{thebibliography}{1}
+\newcommand{\enquote}[1]{``#1''}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+
+\bibitem[{Card(2001)}]{card2001estimating}
+Card, David. 2001.
+\newblock \enquote{Estimating the return to schooling: Progress on some
+  persistent econometric problems.}
+\newblock \emph{Econometrica} 69~(5):1127--1160.
+
+\end{thebibliography}
