@@ -1,0 +1,9 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{Definitions}{5}{0}{1}
+\beamer@sectionintoc {2}{Properties}{8}{0}{2}
+\beamer@sectionintoc {3}{Random variables}{10}{0}{3}
+\beamer@subsectionintoc {3}{1}{Discrete}{10}{0}{3}
+\beamer@subsectionintoc {3}{2}{Continuous}{11}{0}{3}
+\beamer@subsectionintoc {3}{3}{Bivariate distributions}{12}{0}{3}
+\beamer@subsectionintoc {3}{4}{Expectations}{14}{0}{3}
+\beamer@subsectionintoc {3}{5}{Conditional expectation}{18}{0}{3}

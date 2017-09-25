@@ -1,0 +1,165 @@
+\beamer@endinputifotherversion {3.36pt}
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\headcommand {\beamer@framepages {1}{1}}
+\headcommand {\partentry {Definition and interpretation of regression}{1}}
+\headcommand {\beamer@partpages {1}{1}}
+\headcommand {\beamer@sectionpages {1}{1}}
+\headcommand {\beamer@subsectionpages {1}{1}}
+\headcommand {\slideentry {0}{0}{2}{2/2}{}{1}}
+\headcommand {\beamer@framepages {2}{2}}
+\headcommand {\slideentry {0}{0}{3}{3/3}{}{1}}
+\headcommand {\beamer@framepages {3}{3}}
+\headcommand {\slideentry {0}{0}{4}{4/4}{}{1}}
+\headcommand {\beamer@framepages {4}{4}}
+\headcommand {\slideentry {0}{0}{4}{4/5}{}{1}}
+\headcommand {\beamer@framepages {4}{5}}
+\headcommand {\sectionentry {1}{Motivation}{6}{Motivation}{1}}
+\headcommand {\beamer@sectionpages {2}{5}}
+\headcommand {\beamer@subsectionpages {2}{5}}
+\headcommand {\slideentry {1}{0}{1}{6/6}{}{1}}
+\headcommand {\beamer@framepages {6}{6}}
+\headcommand {\slideentry {1}{0}{2}{7/7}{}{1}}
+\headcommand {\beamer@framepages {7}{7}}
+\headcommand {\slideentry {1}{0}{3}{8/8}{}{1}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\slideentry {1}{0}{4}{9/9}{}{1}}
+\headcommand {\beamer@framepages {9}{9}}
+\headcommand {\sectionentry {2}{Conditional expectation function}{10}{Conditional expectation function}{1}}
+\headcommand {\beamer@sectionpages {6}{9}}
+\headcommand {\beamer@subsectionpages {6}{9}}
+\headcommand {\slideentry {2}{0}{1}{10/10}{}{1}}
+\headcommand {\beamer@framepages {10}{10}}
+\headcommand {\sectionentry {3}{Population regression}{11}{Population regression}{1}}
+\headcommand {\beamer@sectionpages {10}{10}}
+\headcommand {\beamer@subsectionpages {10}{10}}
+\headcommand {\slideentry {3}{0}{1}{11/11}{}{1}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\slideentry {3}{0}{1}{11/12}{}{1}}
+\headcommand {\beamer@framepages {11}{12}}
+\headcommand {\slideentry {3}{0}{2}{13/13}{}{1}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\slideentry {3}{0}{3}{14/14}{}{1}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\beamer@subsectionentry {1}{3}{1}{15}{Interpretation}}\headcommand {\beamer@subsectionpages {11}{14}}
+\headcommand {\slideentry {3}{1}{1}{15/15}{Interpretation}{1}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\slideentry {3}{1}{2}{16/16}{Interpretation}{1}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\sectionentry {4}{Sample regression}{17}{Sample regression}{1}}
+\headcommand {\beamer@sectionpages {11}{16}}
+\headcommand {\beamer@subsectionpages {15}{16}}
+\headcommand {\slideentry {4}{0}{1}{17/17}{}{1}}
+\headcommand {\beamer@framepages {17}{17}}
+\headcommand {\slideentry {4}{0}{1}{17/18}{}{1}}
+\headcommand {\beamer@framepages {17}{18}}
+\headcommand {\slideentry {4}{0}{1}{17/19}{}{1}}
+\headcommand {\beamer@framepages {17}{19}}
+\headcommand {\slideentry {4}{0}{1}{17/20}{}{1}}
+\headcommand {\beamer@framepages {17}{20}}
+\headcommand {\slideentry {4}{0}{2}{21/21}{}{1}}
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\slideentry {4}{0}{3}{22/22}{}{1}}
+\headcommand {\beamer@framepages {22}{22}}
+\headcommand {\slideentry {4}{0}{4}{23/23}{}{1}}
+\headcommand {\beamer@framepages {23}{23}}
+\headcommand {\partentry {Properties of regression}{2}}
+\headcommand {\beamer@partpages {2}{23}}
+\headcommand {\beamer@sectionpages {17}{23}}
+\headcommand {\beamer@subsectionpages {17}{23}}
+\headcommand {\slideentry {4}{0}{5}{24/24}{}{2}}
+\headcommand {\beamer@framepages {24}{24}}
+\headcommand {\slideentry {4}{0}{6}{25/25}{}{2}}
+\headcommand {\beamer@framepages {25}{25}}
+\headcommand {\sectionentry {5}{Fitted value and residuals}{26}{Fitted value and residuals}{2}}
+\headcommand {\beamer@sectionpages {24}{25}}
+\headcommand {\beamer@subsectionpages {24}{25}}
+\headcommand {\slideentry {5}{0}{1}{26/26}{}{2}}
+\headcommand {\beamer@framepages {26}{26}}
+\headcommand {\slideentry {5}{0}{1}{26/27}{}{2}}
+\headcommand {\beamer@framepages {26}{27}}
+\headcommand {\slideentry {5}{0}{1}{26/28}{}{2}}
+\headcommand {\beamer@framepages {26}{28}}
+\headcommand {\slideentry {5}{0}{1}{26/29}{}{2}}
+\headcommand {\beamer@framepages {26}{29}}
+\headcommand {\slideentry {5}{0}{2}{30/30}{}{2}}
+\headcommand {\beamer@framepages {30}{30}}
+\headcommand {\sectionentry {6}{Statistical properties}{31}{Statistical properties}{2}}
+\headcommand {\beamer@sectionpages {26}{30}}
+\headcommand {\beamer@subsectionpages {26}{30}}
+\headcommand {\beamer@subsectionentry {2}{6}{1}{31}{Unbiased}}\headcommand {\beamer@subsectionpages {31}{30}}
+\headcommand {\slideentry {6}{1}{1}{31/31}{Unbiased}{2}}
+\headcommand {\beamer@framepages {31}{31}}
+\headcommand {\slideentry {6}{1}{2}{32/32}{Unbiased}{2}}
+\headcommand {\beamer@framepages {32}{32}}
+\headcommand {\slideentry {6}{1}{3}{33/33}{Unbiased}{2}}
+\headcommand {\beamer@framepages {33}{33}}
+\headcommand {\beamer@subsectionentry {2}{6}{2}{34}{Variance}}\headcommand {\beamer@subsectionpages {31}{33}}
+\headcommand {\slideentry {6}{2}{1}{34/34}{Variance}{2}}
+\headcommand {\beamer@framepages {34}{34}}
+\headcommand {\slideentry {6}{2}{1}{34/35}{Variance}{2}}
+\headcommand {\beamer@framepages {34}{35}}
+\headcommand {\slideentry {6}{2}{2}{36/36}{Variance}{2}}
+\headcommand {\beamer@framepages {36}{36}}
+\headcommand {\slideentry {6}{2}{3}{37/37}{Variance}{2}}
+\headcommand {\beamer@framepages {37}{37}}
+\headcommand {\slideentry {6}{2}{4}{38/38}{Variance}{2}}
+\headcommand {\beamer@framepages {38}{38}}
+\headcommand {\beamer@subsectionentry {2}{6}{3}{39}{Distribution}}\headcommand {\beamer@subsectionpages {34}{38}}
+\headcommand {\slideentry {6}{3}{1}{39/39}{Distribution}{2}}
+\headcommand {\beamer@framepages {39}{39}}
+\headcommand {\slideentry {6}{3}{1}{39/40}{Distribution}{2}}
+\headcommand {\beamer@framepages {39}{40}}
+\headcommand {\slideentry {6}{3}{2}{42/42}{Distribution}{2}}
+\headcommand {\beamer@framepages {42}{42}}
+\headcommand {\beamer@subsectionentry {2}{6}{4}{43}{Discussion of assumptions}}\headcommand {\beamer@subsectionpages {39}{42}}
+\headcommand {\slideentry {6}{4}{1}{43/43}{Discussion of assumptions}{2}}
+\headcommand {\beamer@framepages {43}{43}}
+\headcommand {\slideentry {6}{4}{1}{43/44}{Discussion of assumptions}{2}}
+\headcommand {\beamer@framepages {43}{44}}
+\headcommand {\slideentry {6}{4}{1}{43/45}{Discussion of assumptions}{2}}
+\headcommand {\beamer@framepages {43}{45}}
+\headcommand {\slideentry {6}{4}{2}{46/46}{Discussion of assumptions}{2}}
+\headcommand {\beamer@framepages {46}{46}}
+\headcommand {\slideentry {6}{4}{2}{46/47}{Discussion of assumptions}{2}}
+\headcommand {\beamer@framepages {46}{47}}
+\headcommand {\slideentry {6}{4}{3}{48/48}{Discussion of assumptions}{2}}
+\headcommand {\beamer@framepages {48}{48}}
+\headcommand {\slideentry {6}{4}{4}{49/49}{Discussion of assumptions}{2}}
+\headcommand {\beamer@framepages {49}{49}}
+\headcommand {\slideentry {6}{4}{5}{50/50}{Discussion of assumptions}{2}}
+\headcommand {\beamer@framepages {50}{50}}
+\headcommand {\slideentry {6}{4}{5}{50/51}{Discussion of assumptions}{2}}
+\headcommand {\beamer@framepages {50}{51}}
+\headcommand {\slideentry {6}{4}{5}{50/52}{Discussion of assumptions}{2}}
+\headcommand {\beamer@framepages {50}{52}}
+\headcommand {\slideentry {6}{4}{5}{50/53}{Discussion of assumptions}{2}}
+\headcommand {\beamer@framepages {50}{53}}
+\headcommand {\slideentry {6}{4}{6}{54/54}{Discussion of assumptions}{2}}
+\headcommand {\beamer@framepages {54}{54}}
+\headcommand {\slideentry {6}{4}{6}{54/55}{Discussion of assumptions}{2}}
+\headcommand {\beamer@framepages {54}{55}}
+\headcommand {\slideentry {6}{4}{7}{56/56}{Discussion of assumptions}{2}}
+\headcommand {\beamer@framepages {56}{56}}
+\headcommand {\slideentry {6}{4}{8}{57/57}{Discussion of assumptions}{2}}
+\headcommand {\beamer@framepages {57}{57}}
+\headcommand {\sectionentry {7}{Examples}{58}{Examples}{2}}
+\headcommand {\beamer@sectionpages {31}{57}}
+\headcommand {\beamer@subsectionpages {43}{57}}
+\headcommand {\slideentry {7}{0}{1}{58/58}{}{2}}
+\headcommand {\beamer@framepages {58}{58}}
+\headcommand {\slideentry {7}{0}{2}{59/59}{}{2}}
+\headcommand {\beamer@framepages {59}{59}}
+\headcommand {\slideentry {7}{0}{3}{60/60}{}{2}}
+\headcommand {\beamer@framepages {60}{60}}
+\headcommand {\sectionentry {8}{\translate {References}}{61}{\translate {References}}{2}}
+\headcommand {\beamer@sectionpages {58}{60}}
+\headcommand {\beamer@subsectionpages {58}{60}}
+\headcommand {\slideentry {8}{0}{0}{61/61}{}{2}}
+\headcommand {\beamer@framepages {61}{61}}
+\headcommand {\slideentry {8}{0}{0}{61/62}{}{2}}
+\headcommand {\beamer@framepages {61}{62}}
+\headcommand {\beamer@partpages {24}{62}}
+\headcommand {\beamer@subsectionpages {58}{62}}
+\headcommand {\beamer@sectionpages {58}{62}}
+\headcommand {\beamer@documentpages {62}}
+\headcommand {\def \inserttotalframenumber {61}}
