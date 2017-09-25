@@ -1,3 +1,4 @@
+\documentclass[ignorenonframetext, compress, 9pt, xcolor=svgnames]{beamer} 
 \usepackage{pdfpages}
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -141,7 +142,7 @@
 \newcommand{\Er}{\mathrm{E}}
 \renewcommand{\Pr}{\mathrm{P}}
 %\newcommand{\Var}{\mathrm{Var}}
-\newcommand{\Cov}{\mathrm{Cov}}
+%\newcommand{\Cov}{\mathrm{Cov}}
 \newcommand{\corr}{\mathrm{Corr}}
 %\newcommand{\Var}{\mathrm{Var}}
 \newcommand{\bias}{\mathrm{Bias}}
@@ -186,13 +187,15 @@
 \renewcommand{\theassumption}{A\arabic{assumption}}
 \newtheorem{hypothese}{Hypothèse}
 \renewcommand{\thehypothese}{H\arabic{hypothese}}
-\newcommand{\Var}{\mathrm{Var}}
+%\newcommand{\Var}{\mathrm{Var}}
+\newcommand{\Var}{\mathbb{V}}
 \renewcommand{\Er}{\mathbb{E}}
 \newcommand{\LP}{\mathcal{LP}}
 \providecommand{\Id}{\mathbf{I}}
 \providecommand{\Rang}{\mathrm{Rang}}
 \providecommand{\Trace}{\mathrm{Trace}}
-\renewcommand{\Cov}{\mathrm{Cov}}
+%\renewcommand{\Cov}{\mathrm{Cov}}
+\providecommand{\Cov}{\mathbb{C}}
 \providecommand{\Corr}{\mathrm{Corr}}
 \providecommand{\Diag}{\mathrm{Diag}}
 \providecommand{\reg}{\mathrm{r}}
@@ -205,6 +208,7 @@
 \providecommand{\Tr}{\mathrm{Tr}}
 \providecommand{\CI}{\mathrm{CI}}
 \providecommand{\asyvar}{\mathrm{AsyVar}}
+\newcommand{\se}{\mathrm{SE}}
 \newcommand{\inputslide}[2]{{
     \usebackgroundtemplate{
       \includegraphics[page={#2},width=\paperwidth,keepaspectratio=true]
@@ -260,3 +264,5 @@
 \AddToShipoutPictureFG{
   \AtPagemyUpperLeft{{\includegraphics[width=1.1cm,keepaspectratio]{../logo-uga.png}}}
 }%
+\def\figheight{3in}
+\def\figwidth{4in}

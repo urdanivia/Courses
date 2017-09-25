@@ -1,0 +1,50 @@
+%\documentclass[12pt, reqno]{amsart}
+%\documentclass[12pt, reqno, fleqn]{amsart}
+\input{../Config_notes}
+\title{TD1}
+\date{\today}
+\begin{document}
+\maketitle
+\section{Espérance conditionnelle et meilleure prédiction}
+Supposons que l'on cherche à prédire une variable $Y\in \mathbb{R}$
+par un ensemble de variables représentées par le vecteur
+$X\in\mathbb{R}^K$. Cette prédiction est une fonction $g(x)$ pour les
+valeurs de $X=x$. L'erreur de prédiction est $Y-g(x)$ et une mesure
+non-stochastique de l'ampleur de cette erreur est l'espérance de son
+carré,
+
+\begin{align*}
+\Er\left[(Y-g(x))^2 | X = x\right]
+\end{align*}
+
+qui est \textbf{L'erreur quadratique moyenne}. 
+\begin{enumerate}
+\item Montrer que,
+\begin{align*}
+\Er\left[(Y-g(x))^2 | X = x\right] &= \Var(Y|x) +  (g(x) - \Er(Y|x))^2
+\end{align*}
+\item En déduire que l'erreur quadratique moyenne est minimisée pour
+  $g(x) = \Er(Y|x)$.
+\end{enumerate}
+
+\section{Linéarité de l'espérance conditionnelle}
+Supposons que $X=(1, W)^\top$ et que,
+
+\begin{align*}
+\Er(Y| X)  &= \beta_0 + \beta_1 W
+\end{align*}
+
+avec 
+
+\begin{align*}
+(\beta_0, \beta_1) &= \arg\min_{b_0, b_1}\Er\left[(Y - b_0 - b_1W)^2\right]
+\end{align*}
+
+
+\begin{enumerate}
+\item Donnez les conditions du premier ordre qui définissent $\beta_0$
+  et $\beta_1$.
+\item Montrez que $\beta_0 = \Er(Y)-\beta_1\Er(X)$ et $\beta_1 =
+  \frac{\Cov(X, Y)}{\Vr(X)}$.
+\end{enumerate}
+\end{document}

@@ -1,0 +1,51 @@
+\begin{thebibliography}{8}
+\newcommand{\enquote}[1]{``#1''}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+
+\bibitem[{Abbring(2001)}]{abbring2001}
+Abbring, Jaap. 2001.
+\newblock \enquote{An Introduction to Econometrics: Lecture notes.}
+\newblock
+  \urlprefix\url{http://jabbring.home.xs4all.nl/courses/b44old/lect210.pdf}.
+
+\bibitem[{Angrist and Pischke(2009)}]{ap2009}
+Angrist, J.D. and J.S. Pischke. 2009.
+\newblock \emph{Mostly harmless econometrics: An empiricist's companion}.
+\newblock Princeton University Press.
+
+\bibitem[{Angrist and Pischke(2014)}]{ap2014}
+Angrist, Joshua~D and J{\"o}rn-Steffen Pischke. 2014.
+\newblock \emph{Mastering 'Metrics: The Path from Cause to Effect}.
+\newblock Princeton University Press.
+
+\bibitem[{Baltagi(2002)}]{baltagi2002}
+Baltagi, BH. 2002.
+\newblock \emph{Econometrics}.
+\newblock Springer, New York.
+\newblock
+  \urlprefix\url{http://gw2jh3xr2c.search.serialssolutions.com/?sid=sersol&SS_jc=TC0001086635&title=Econometrics}.
+
+\bibitem[{Bierens(2012)}]{bierens2010sreg}
+Bierens, Herman~J. 2012.
+\newblock \enquote{The Two-Variable Linear Regression Model.}
+\newblock \urlprefix\url{http://personal.psu.edu/hxb11/LINREG2.PDF}.
+
+\bibitem[{Diez, Barr, and Cetinkaya-Rundel(2012)}]{dbc2012}
+Diez, David~M, Christopher~D Barr, and Mine Cetinkaya-Rundel. 2012.
+\newblock \emph{OpenIntro Statistics}.
+\newblock OpenIntro.
+\newblock \urlprefix\url{http://www.openintro.org/stat/textbook.php}.
+
+\bibitem[{Stock and Watson(2009)}]{sw2009}
+Stock, J.H. and M.W. Watson. 2009.
+\newblock \emph{Introduction to Econometrics, 2/E}.
+\newblock Addison-Wesley.
+
+\bibitem[{Wooldridge(2013)}]{w2013}
+Wooldridge, J.M. 2013.
+\newblock \emph{Introductory econometrics: A modern approach}.
+\newblock South-Western.
+
+\end{thebibliography}

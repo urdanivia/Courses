@@ -1,12 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.29)  19 SEP 2017 09:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.29)  19 SEP 2017 10:24
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**Syllabus.tex
-(./Syllabus.tex
-LaTeX2e <2015/01/01>
-Babel <3.9l> and hyphenation patterns for 79 languages loaded.
-(../Config_notes.tex
+**\input TD1.tex
+(./TD1.tex (../Config_notes.tex
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amscls/amsart.cls
 Document Class: amsart 2015/03/04 v2.20.2
 \linespacing=\dimen102
@@ -1289,9 +1287,8 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 43.
 \c@remarque=\count145
 \c@definition=\count146
 \c@exemple=\count147
-)
-(./Syllabus.aux)
-\openout1 = `Syllabus.aux'.
+) (./TD1.aux)
+\openout1 = `TD1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
@@ -1374,9 +1371,9 @@ LaTeX Info: Redefining \ref on input line 6.
 LaTeX Info: Redefining \pageref on input line 6.
 LaTeX Info: Redefining \nameref on input line 6.
 
-(./Syllabus.out) (./Syllabus.out)
+(./TD1.out) (./TD1.out)
 \@outlinefile=\write3
-\openout3 = `Syllabus.out'.
+\openout3 = `TD1.out'.
 
 
 *geometry* driver: auto-detecting
@@ -1426,61 +1423,46 @@ Package frenchb.ldf Info: Setting StandardEnumerateEnv=true for
 (frenchb.ldf)             compatibility with enumitem package,
 (frenchb.ldf)              on input line 6.
 LaTeX Info: Redefining \up on input line 6.
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 24.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-Overfull \hbox (63.04475pt too wide) in paragraph at lines 15--25
-[][]$\T1/pcr/m/n/12 https : / / github . com / urdanivia / Courses / tree / mas
-ter / UGA _ L3Miash _ Econometriie _
- []
-
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
 [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 45.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
 
-
-Package Fancyhdr Warning: \headheight is too small (8.0pt): 
- Make it at least 14.46858pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
- (./Syllabus.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 45.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
-Package rerunfilecheck Info: File `Syllabus.out' has not changed.
-(rerunfilecheck)             Checksum: 36E119096BA7A64FBC19F035A199A336;158.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
+(./TD1.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
+Package rerunfilecheck Info: File `TD1.out' has not changed.
+(rerunfilecheck)             Checksum: D3E1F36D534C1D5C94CA068EC087C0B8;178.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
  ) 
 Here is how much of TeX's memory you used:
- 13103 strings out of 493089
- 185044 string characters out of 6134841
- 393409 words of memory out of 5000000
- 16160 multiletter control sequences out of 15000+600000
- 19147 words of font info for 55 fonts, out of 8000000 for 9000
+ 13053 strings out of 493089
+ 184343 string characters out of 6134841
+ 391366 words of memory out of 5000000
+ 16125 multiletter control sequences out of 15000+600000
+ 17513 words of font info for 51 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 36i,11n,53p,603b,497s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
-st, replaced by a fixed one
-
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{
-/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/u
-sr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/20
-15/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2015
-/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2015/t
-exmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2015/tex
-mf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2015/texmf
--dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2015/texmf-d
-ist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2015/texmf-dis
-t/fonts/type1/public/cm-super/sfxc1728.pfb></usr/local/texlive/2015/texmf-dist/
-fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on Syllabus.pdf (2 pages, 133652 bytes).
+ 36i,8n,53p,465b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/201
+5/texmf-dist/fonts/type1/public/cm-super/sfxc1728.pfb>
+Output written on TD1.pdf (1 page, 148147 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 77 compressed objects within 1 object stream
- 16 named destinations out of 1000 (max. 500000)
- 25 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 94 PDF objects out of 1000 (max. 8388607)
+ 74 compressed objects within 1 object stream
+ 8 named destinations out of 1000 (max. 500000)
+ 17 words of extra memory for PDF output out of 10000 (max. 10000000)
 
