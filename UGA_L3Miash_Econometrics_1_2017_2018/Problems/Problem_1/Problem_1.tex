@@ -1,0 +1,70 @@
+\input{../../Config_notes}
+\title{Problem 1}
+\date{\today}
+\begin{document}
+\maketitle
+
+
+\begin{problem}[Wooldridge B.10]
+  Suppose that at a large university, college grade point averages,
+  $GPA$, and SAT score, $SAT$, are related by $\Er[GPA|SAT] = 0.70 +
+  0.002 SAT$. 
+  \begin{enumerate}
+  \item Find the expected $GPA$ when $SAT=800$. Find
+    $\Er[GPA|SAT=1400]$. Comment on the difference.
+  \item\label{b10.2} If the average $SAT$ in the university is 1100,
+    what is the average $GPA$?
+  \item If a student's SAT score is 1100, does this mean he or she
+    will have the GPA found in (\ref{b10.2})? Explain.
+  \end{enumerate}
+\end{problem}
+
+\begin{problem}\label{monet}
+  A Monet expert is given a painting purported to be a lost Monet.  He
+  is asked to assess the chances that it is genuine and has the
+  following information:
+  \begin{itemize}
+  \item In general, only 1\% of the ``found'' paintings he receives
+    turn out to be genuine, an event we’ll call $G$
+  \item ``Found'' paintings have a different frequency of use of
+    certain pigments than genuine Monets do:
+    \begin{enumerate}
+    \item cadmium yellow Y appears in 30\% ``found'' paintings, but
+      only 10\% genuine ones
+    \item raw umber U appears in 90\% of ``found'' paintings, but only
+      40\% of genuine ones
+    \item burnt sienna S appears in 20\% of ``found'' paintings, but
+      70\% of genuine paintings
+    \end{enumerate}
+  \item This particular painting uses burnt sienna, but not cadmium
+    yellow or raw umber. 
+  \end{itemize}
+  What is the probability that this particular painting is genuine? Do
+  we have to make any additional assumptions to answer the question?
+\end{problem}
+
+\begin{problem}
+  Let $\{(x_i,y_i): i=1,2,...,n\}$ be a sample. Let $\bar{x}
+  = \frac{1}{n} \sum_{i=1}^n x_i$ and $\bar{y} = \frac{1}{n} 
+  \sum_{i=1}^n y_i$ be the sample means of $X$ and $Y$.
+  \begin{enumerate}
+  \item\label{hk1} Show that $\sum_{i=1}^n (x_i - \bar{x}) = 0$
+  \item Using the result in part (\ref{hk1}), show that 
+    \[ \sum_{i=1}^n (x_i - \bar{x})^2 = \sum_{i=1}^n x_i (x_i -
+    \bar{x}) \]
+  \item Show that
+    \[ \sum_{i=1}^n (x_i - \bar{x}) (y_i - \bar{y}) = \sum_{i=1}^n x_i
+    (y_i - \bar{y}) = \sum_{i=1}^n y_i (x_i - \bar{x}) \]
+  \end{enumerate}
+\end{problem}
+
+%\begin{problem}
+ % Complete all seven parts of \url{http://tryr.codeschool.com/}. There
+  %is nothing to hand in for this problem.
+%\end{problem}
+
+
+
+\bibliographystyle{jpe}
+\bibliography{../../Biblio.bib}
+\end{document}

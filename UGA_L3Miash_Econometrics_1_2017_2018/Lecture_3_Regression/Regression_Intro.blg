@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Regression_Intro.aux
+The style file: jpe.bst
+Database file #1: ../Biblio.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 10 entries,
+            3072 wiz_defined-function locations,
+            662 strings with 5728 characters,
+and the built_in function-call counts, 4995 in all, are:
+= -- 406
+> -- 236
+< -- 0
++ -- 82
+- -- 68
+* -- 305
+:= -- 890
+add.period$ -- 48
+call.type$ -- 10
+change.case$ -- 58
+chr.to.int$ -- 10
+cite$ -- 10
+duplicate$ -- 345
+empty$ -- 372
+format.name$ -- 83
+if$ -- 981
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 72
+newline$ -- 61
+num.names$ -- 40
+pop$ -- 177
+preamble$ -- 1
+purify$ -- 57
+quote$ -- 0
+skip$ -- 152
+stack$ -- 0
+substring$ -- 139
+swap$ -- 140
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 72
+warning$ -- 0
+while$ -- 42
+width$ -- 0
+write$ -- 136
