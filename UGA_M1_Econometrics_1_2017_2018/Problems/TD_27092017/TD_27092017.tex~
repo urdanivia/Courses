@@ -1,0 +1,91 @@
+%\documentclass[12pt, reqno]{amsart}
+%\documentclass[12pt, reqno, fleqn]{amsart}
+\input{../../Config_notes}
+\title{Problème 1: régression linéaire simple}
+\date{\today}
+\begin{document}
+\maketitle
+\section*{Exercice 1}
+Les données "BWGHT.dta" contiennent des informations sur les
+naissances par des femmes au \'Etats-Unis. Deux variables retiennent
+ici notre attention: le poids à la naissance des nouveaux-nés(mesuré
+en onces(variable $bwght$), et le nombre moyen de cigarettes
+fumées par jour durant la période de grosesse(variable
+$cigs$). On souhaite estimer la régression suivante 
+sur les données relatives à $N = 1388$ naissances,
+
+\[bwght_i  = \beta_0 + \beta_1 cigs_i + U_i, \ \ \ i = 1, ...,N\]
+
+où l'on suppose que $\Er(U_i| cigs_i) = 0$. L'échantillon $\{(bwght_i,
+cigs_i)\}_{i=1}^N$ est par ailleurs supposé i.i.d.
+
+\begin{enumerate}
+\item Donnez une interprétation de $\beta_0$ et de $\beta_1$.
+\item L'estimation par moindres carrés donne $\hat{\beta_0} = 119.77$
+  et $\hat{\beta_1} = -0.514$. Rappelez les formules pour obtenir ces estimateurs.
+\item Quel est le poids prédit par ce modèle quand $cigs = 0$, et
+  celui quand $cigs = 20$? Commentez la différence.
+\item L'hypothèse $\Er(U_i| cigs_i) = 0$ vous semble t-elle
+  justifiée?(argumentez votre réponse).
+\item Présentez un script (ou "notebook jupyter") Python permettant de
+  calculer $\hat{\beta_1}$ et $\hat{\beta_1}$(avec lequel vous devez
+  trouver les valeurs indiquées plus-haut).
+\end{enumerate}
+
+\section*{Exercice 2}
+Le site de Joshua Angrist contient les données utilisées dans
+plusieurs de ses travaux\footnote{Allez à
+  \url{(http://economics. mit.edu/faculty/angrist/data1/data/anglavy99)}}. On
+s'intéresse ici à celle relatives à \cite{angrist1999}. Dans ce
+travail les auteurs s'intéressent à l'effet causal de la taille des classes
+sur les résultats des élèves à des tests d'évaluation. Pour identifier
+cet effet causal ils considèrent le cas des écoles israéliennes dont
+une des règles de fonctionnement leur permet d'utiliser une stratégie
+par variables instrumentales. Comme cette méthode sera vue dans une
+partie plus avancée du cours, on se contentera pour le moment des
+aspects du travail qui emploient des régressions "de base"
+
+\begin{enumerate}
+\item Lisez l'article jusqu'à la fin de la section 1(au moins), et
+  faites un résumé de deux pages au plus en présentant la
+  problèmatique, et les données.
+\item Téléchargez les données et calculez les statistiques
+  descriptives du tableau 1 pour l'échantillon de la cinquième
+  année("5th grade", soit 2019 observations, voir page 539 dans la revue, 7
+  dans le fichier pdf). Vous fournirez le code Python utilisé. Notez
+  que l'unité d'observation est la classe, que le nombre
+  d'inscrits( "enrollment" en anglais dans l'article)
+  est appelé $c\_size$, que le pourcentage d'élèves
+  désavantagés("percent disadvantaged" en anglais dans l'article) est
+  appelé $tipuach$.\\
+En outre, pour reproduire exactement les nombres du tableau 4 vous
+devez suivre les indications de la note de bas de page 11 et
+restreindre l'échantillon aux écoles avec au moins 5 inscriptions et
+des classes de taille inférieures à 45. Il y a aussi certaines
+corrections peu évidentes à faire sur les données. Ainsi il y a des
+ des observations qui présentent une moyenne au
+test de maths(variable $avgmath$) et une moyenne au test en expression
+écrite $avgberb$ supérieures à 100, en raison d'erreurs dans
+l'enregistrement des données. Les valeurs correctes sont 87.606 et
+81.246 (et non 187.606 et 181.246). Enfin, il y a un score en maths
+non manquant pour une observation avec $mathsize = 0$ ce qui est
+impossible(car pas d'élèves en maths). Il faut ici remplacer cette
+valeur non manquante par une valeur manquante. Le code qui accopagne
+ce TD règle les problèmes ci-dessus mentionnés.
+\item Un débat courant entre économistes, et d'autres chercheurs en
+  sciences sociales concerne l'arbitrage entre les coûts et les
+  bénéfices associés à la réduction de la taille des classes. Quel
+  serait les signe de l'effet de la réduction de la taille des classes
+  sur les résultats scolaires(tels que mesurés par des tests comme
+  ceux de l'article) si cette réduction valait la peine?
+\item Estimez les régression des résultats en maths sur la taille des
+  classes(et une constante), et des résultats en expression écrite sur la taille des
+  classes(et une constante. Quel est le signe de ces relations?
+  Sont-elles significativement différentes de zéro?
+\end{enumerate}
+\bibliographystyle{jpe}
+\bibliography{../../Biblio}
+
+
+\end{document}
+
