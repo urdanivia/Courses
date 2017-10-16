@@ -1,0 +1,14 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {french}
+\beamer@sectionintoc {1}{Motivation}{6}{0}{1}
+\beamer@sectionintoc {2}{Conditional expectation function}{10}{0}{2}
+\beamer@sectionintoc {3}{Population regression}{11}{0}{3}
+\beamer@subsectionintoc {3}{1}{Interpretation}{15}{0}{3}
+\beamer@sectionintoc {4}{Sample regression}{17}{0}{4}
+\beamer@sectionintoc {5}{Fitted value and residuals}{26}{1}{5}
+\beamer@sectionintoc {6}{Statistical properties}{31}{1}{6}
+\beamer@subsectionintoc {6}{1}{Unbiased}{31}{1}{6}
+\beamer@subsectionintoc {6}{2}{Variance}{34}{1}{6}
+\beamer@subsectionintoc {6}{3}{Distribution}{39}{1}{6}
+\beamer@subsectionintoc {6}{4}{Discussion of assumptions}{43}{1}{6}
+\beamer@sectionintoc {7}{Examples}{57}{1}{7}

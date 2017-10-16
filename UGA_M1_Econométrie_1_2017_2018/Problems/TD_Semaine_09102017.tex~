@@ -1,0 +1,139 @@
+%\documentclass[12pt, reqno]{amsart}
+%\documentclass[12pt, reqno, fleqn]{amsart}
+\input{../Config_notes_fr}
+\title{TD1}
+\date{\today}
+\begin{document}
+\maketitle
+\section{Espérance conditionnelle et meilleure prédiction}
+Supposons que l'on cherche à prédire une variable $Y\in \mathbb{R}$
+par un ensemble de variables représentées par le vecteur
+$X\in\mathbb{R}^K$. Cette prédiction est une fonction $g(x)$ pour les
+valeurs de $X=x$. L'erreur de prédiction est $Y-g(x)$ et une mesure
+non-stochastique de l'ampleur de cette erreur est l'espérance de son
+carré,
+
+\begin{align*}
+\Er\left[(Y-g(x))^2 | X = x\right]
+\end{align*}
+
+qui est \textbf{l'erreur quadratique moyenne}. 
+\begin{enumerate}
+\item Montrer que,
+\begin{align*}
+\Er\left[(Y-g(x))^2 | X = x\right] &= \Var(Y|x) +  (g(x) - \Er(Y|x))^2
+\end{align*}
+\item En déduire que l'erreur quadratique moyenne est minimisée pour
+  $g(x) = \Er(Y|x)$.
+\end{enumerate}
+
+\section{Linéarité de l'espérance conditionnelle}
+Supposons que $X=(1, W)^\top$ et que,
+
+\begin{align*}
+\Er(Y| X)  &= \beta_0 + \beta_1 W
+\end{align*}
+
+avec 
+
+\begin{align*}
+(\beta_0, \beta_1) &= \arg\min_{b_0, b_1}\Er\left[(Y - b_0 - b_1W)^2\right]
+\end{align*}
+
+
+\begin{enumerate}
+\item Donnez les conditions du premier ordre qui définissent $\beta_0$
+  et $\beta_1$.
+\item Montrez que $\beta_0 = \Er(Y)-\beta_1\Er(X)$ et $\beta_1 =
+  \frac{\Cov(X, Y)}{\Var(X)}$.
+\end{enumerate}
+
+\section{Régression linéaire simple}
+
+\subsubsection*{Exercice 1}
+Considérons le modèle défini par,
+
+\begin{align*}
+Y_i &= \beta_0 + \beta_1 X_i + \epsilon_i, \ \ i=1,...,n
+\end{align*}
+
+pour un échantillon i.i.d., et où $\Er[\epsilon_i] = 0$, $\Var(\epsilon_i) = \sigma^2$. Soit
+$\hat{\beta_0}$, et $\hat{\beta_1}$ les estimateurs des moindres
+carrés de $\beta_0$ et $\beta_1$.
+
+\begin{enumerate}
+\item Calculez $\Var(\hat{\beta_0} | X_i)$.
+\item On calcule les résidus $\hat{\epsilon_i} = Y_i - \hat{Y_i}$, où
+  $\hat{Y_i} = (\hat{\beta_0}
+  + \hat{\beta_1}X_i)$ sont les valeurs ajustées. Montrez que $\sumin\hat{\epsilon_i} = 0$.
+\item Montrez que $\sumin \hat{Y_i} \hat{\epsilon_i} = 0$. Quelle est
+  l'interprétation de ce résultat.
+\item Supposons calculiez une régression des $Y_i$ sur les résidus
+  $\epsilon_i$(autrement dit, que vous estimiez $Y_i = \alpha_0 +
+  \alpha_1\hat{\epsilon_i} + v_i$, $v_i$ étant l'erreur du
+  modèle). Quels seraient les paramètres estimés par MCO de $\alpha_0$,
+  et $\alpha_1$?
+\end{enumerate}
+
+\subsubsection*{Exercice 2}
+
+Considérons le modèle,
+\begin{align*}
+Y_i &= \beta_1 X_i + \epsilon_i
+\end{align*}
+
+\begin{enumerate}
+\item Calculez l'estimateur des MCO de $\beta_1$, noté
+  $\hat{\beta_1}$.
+\item Montrez que $\hat{\beta_1}$ est sans biais(autrement dit, que
+  $\Er[\hat{\beta_1}] = \beta_1$).
+\item Supposons que le vraie modèle soit en fait $Y_i = \beta_0 +
+  \beta_1 X_i + \epsilon_i$. Montrez que $\hat{\beta_1}$ calculé dans
+  la première question est biaisé, et donnez une expression de son biais.
+\end{enumerate}
+
+
+\section{Exercice de simulation}
+
+\begin{enumerate}
+\item Générez $n=100$ observations de la façon suivante. D'abord générez
+  une variable $X_i \sim \mathcal{U}(0, 1)$ et une autre variable
+  $\epsilon_i\sim \mathcal{N}(0, 1)$. Pour $\beta_0 = 5$ et $\beta_1 =
+  3$ calculez,
+\begin{align*}
+Y_i&= \beta_0 + \beta_1 X_i + \epsilon_i, \ \ i =1,...,n
+\end{align*}
+
+Représentez alors graphiquement les points $\{(Y_1,
+X_1),...,(Y_n, X_n)\}$. Calculez les estimateurs de MCO et ajoutez sur le
+même graphique la droite $\hat{Y_i} = \hat{\beta_0} +
+\hat{\beta_1}X_i$.
+\item Répetez l'expérience du point précédent 1000 fois. Pour chaque
+  répétition vous aurez un estimateur $\hat{\beta_1}^{(t)}$, pour
+  $t=1,...,1000$. Calculez la moyenne de la suite des valeurs ainsi
+  obtenues. A quelle valeur de la moyenne devriez vous vous attendre?
+  Représentez un histogramme de cette suite.
+\item Répétez le point précédent mais avec $\epsilon_i$ suivant une
+  loi de Cauchy. Cette distribution ressemble à la distribution
+  normale mais avec des queues très épaisses. Quels modifications
+  constatez vous au niveau de l'histogramme?
+\item \'Etudions à présent ce qu'il arrive quand les $X_i$ sont
+  observés avec des erreurs. Pour cela, générez $n=100$ comme suit:
+\begin{align*}
+X_i &\sim \mathcal{U}_i(0, 1)\\
+W_i &= X_i + \delta_i\\
+Y_i &= \beta_0 + \beta_1X_i + \epsilon_i
+\end{align*}
+où $\beta_0 = 5$, $\beta_1=3$, $\epsilon_i \sim\mathcal{N}(0, 1)$, et
+$\delta_i \sim \mathcal{N}(0,2)$. Suppsons que nous n'observions que
+$(Y_1, W_1),...,(Y_n, W_n)$. Représentez graphiquement ces
+points. Calculez les estimateur des MCO dans la régression des $Y_i$
+sur $W_i$, et représentez la droite $\hat{Y_i} =\hat{\beta_0} +
+\hat{\beta_1}X_i$. Répétez cette expérience 1000 fois et calculez la
+moyenne de $\hat{\beta_1}$ sur les 1000 valeurs obtenues. Représentez
+aussi l'histogramme pour la suite des valeurs obtenues. D'après cet
+exercice quel est l'effet des erreurs de mesure sur les $X_i$.  
+\end{enumerate}
+
+
+\end{document}

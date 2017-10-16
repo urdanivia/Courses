@@ -1,0 +1,15 @@
+\begin{thebibliography}{1}
+\newcommand{\enquote}[1]{``#1''}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+
+\bibitem[{Angrist and Lavy(1999)}]{angrist1999}
+Angrist, J.D. and V.~Lavy. 1999.
+\newblock \enquote{Using Maimonides' rule to estimate the effect of class size
+  on scholastic achievement.}
+\newblock \emph{The Quarterly Journal of Economics} 114~(2):533--575.
+\newblock
+  \urlprefix\url{http://qje.oxfordjournals.org/content/114/2/533.short}.
+
+\end{thebibliography}
